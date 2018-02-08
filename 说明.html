@@ -1,0 +1,18 @@
+vscode编写ts文件保存时自动生成js文件
+项目根目录下新增tsconfig.json即可
+
+tsconfig.json 文件配置官网参考
+	https://www.tslang.cn/docs/handbook/tsconfig-json.html
+
+简介版本
+{
+  "compilerOptions": {
+      "target": "ES5",//ecmascript支持版本
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "removeComments": true,//是否移除文档注释
+      "sourceMap": false //是否生成对应的map文件
+      // "outDir": "js_output"//指定输出目录文件夹名称
+  }
+}
+

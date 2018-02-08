@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,//是否移除文档注释
+        "sourceMap": true //是否生成对应的map文件
+        // "target": "ES5",//ecmascript支持版本
+        // "outDir": "js_output"//指定输出目录文件夹名称
+    },
+    "files": [
+        "core.ts",
+        "sys.ts",
+        "types.ts",
+        "scanner.ts",
+        "parser.ts",
+        "utilities.ts",
+        "binder.ts",
+        "checker.ts",
+        "emitter.ts",
+        "program.ts",
+        "commandLineParser.ts",
+        "tsc.ts",
+        "diagnosticInformationMap.generated.ts"
+    ],
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
